@@ -1,3 +1,8 @@
 .place__link{
-    position
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    margin-top: 12px;
 }
