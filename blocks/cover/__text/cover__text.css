@@ -1,6 +1,7 @@
 .cover__text{
+    min-width: 520px;
     position: absolute;
-    margin: auto;
-    max-width: 560px;
-    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

@@ -1,6 +1,9 @@
 .cover{
-    width: 1184px;
-    height: 740px;
+    display: flex;
+    margin: auto;
+    max-width: 1184px;
+    max-height: 740px;
     margin: 92px auto;
     position: relative;
+    text-decoration: none;
 }

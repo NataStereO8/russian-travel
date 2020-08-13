@@ -10,3 +10,10 @@
 .place__paragraph:last-child{
     margin-bottom: 0;
 }
+
+@media (max-width: 520px){
+    .place__paragraph{
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+}

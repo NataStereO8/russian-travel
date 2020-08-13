@@ -8,3 +8,10 @@
     color: #ffffff;
     margin-bottom: 64px;
 }
+
+@media (max-width: 768px){
+    .lead__subtitle{
+    font-size: 16px;
+    line-height: 20px;
+    }
+}
