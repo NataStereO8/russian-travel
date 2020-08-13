@@ -1,8 +1,5 @@
 # Project 3: Russian-travel
 
-Alt-H1
-------------------------------------------------
-
 **About**
 
 This site provides some information about traveling in Russia and contains links to various resources containing more detailed information about sight.
