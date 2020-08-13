@@ -1,7 +1,6 @@
 .lead{
     display: grid; 
-    grid-column: auto;
-    align-items: center;
-    max-width: 984px;
+    grid-column: 100%;
+    align-items: stretch;
     margin: 56px auto 0;
 }

@@ -1,0 +1,19 @@
+.lead__image-block{
+    margin: 0 auto;
+    max-width: 984px;
+}
+
+@media (max-width: 1024px){
+    .lead__image-block{
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media (max-width: 768px){
+    .lead__image-block{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+

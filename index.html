@@ -10,19 +10,20 @@
 </head>
 <body class="page">
     <header class="header">
-        <img src="./images/header-logo.svg" alt="Логотип в шапке" 
-        class="logo__header"> 
+        <img src="./images/header-logo.svg" alt="Логотип в шапке" class="logo__header"> 
         <nav class="header__lang">
-            <a href="#"  target="_blank" rel="noopener"  class="header__lang-link">Ru</a>   
+            <a href="#"  target="_blank" rel="noopener"  class="header__lang-link header__lang-link_line">Ru</a>   
             <a href="#"  target="_blank" rel="noopener"  class="header__lang-link">En</a> 
         </nav>    
     </header>
     <main class="content">
         <section class="lead">
             <h1 class="lead__title">Путешествия по России</h1>
-            <h4 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-            <img src="./images/lead-polka.jpg" alt="Картинка из вагона" class="lead__image">
-            <h5 class="lead__caption">ваша полка — верхняя</h5>
+            <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
+            <figure class="lead__image-block">
+                <img src="./images/lead-polka.jpg" alt="Картинка из вагона" class="lead__image">
+                <figcaption  class="lead__caption">ваша полка — верхняя</figcaption>
+            </figure>
         </section>
         <section class="intro">
             <h3 class="intro__title">Чего мы там не видели?</h3>
@@ -56,8 +57,8 @@
             <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="картинка с красивостями">
             <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="картинка с красивостями">
         </section>
-        <ul class="places">
-            <li class="place">
+        <section class="places">
+            <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
                 <div class="place__website">
                     <p class="place__url-heading">Url</p>
@@ -73,8 +74,8 @@
                         и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы 
                         и запах стального, прохладного моря.</p>
                 </div>
-            </li>
-            <li class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Кольский</h2>
                 <div class="place__website">
                     <p class="place__url-heading">Url</p>
@@ -87,8 +88,8 @@
                     <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом
                         в Мурманск.</p>
                 </div>
-            </li>
-            <li class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Алтай</h2>
                 <div class="place__website">
                     <p class="place__url-heading">Url</p>
@@ -100,8 +101,8 @@
                         В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
                     <p class="place__paragraph">Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
                 </div>
-            </li>
-            <li class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Зимний Байкал</h2>
                 <div class="place__website">
                     <p class="place__url-heading">Url</p>
@@ -114,8 +115,8 @@
                     <p class="place__paragraph">Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себя 
                         к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                 </div>
-            </li>
-            <li class="place">
+            </article>
+            <article class="place">
                 <h2 class="place__title">Карелия</h2>
                 <div class="place__website">
                     <p class="place__url-heading">Url</p>
@@ -127,27 +128,25 @@
                         В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
                         в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
                 </div>
-            </li>
-        </ul>
+            </article>
+        </section>
         <section class="cover">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener" class="cover__overlay">
-                <img src="images/cover-trains.jpg" alt="Поезда"  class="cover__background"/>
-                <div class="cover__text">
-                    <h2 class="cover__title">До Байкала «на собаках»</h2>
-                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
-                </div>
+                <section class="cover__text">
+                    <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;и&nbsp;iframes — путешествие от&nbsp;столицы до&nbsp;Байкала на электричках.</p>
+                </section>
             </a>
-        </section>
         </section>
     </main>
     <footer class="footer">
-        <nav class="footer__menu">
-            <a href="https://yandex.ru/maps" target="_blank" rel="noopener" class="footer__link">Карты</a>
-            <a href="https://yandex.ru/pogoda" target="_blank" rel="noopener" class="footer__link">Погода</a>
-            <a href="https://rasp.yandex.ru" target="_blank" rel="noopener" class="footer__link">Расписание</a>
-            <a href="https://calendar.yandex.ru" target="_blank" rel="noopener" class="footer__link">Календарь</a>
-            <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener" class="footer__link">Путешествия</a>
-        </nav>
+        <ul class="footer__menu">
+            <li class="footer__item"> <a href="https://yandex.ru/maps" target="_blank" rel="noopener" class="footer__link">Карты</a></li>
+            <li class="footer__item"> <a href="https://yandex.ru/pogoda" target="_blank" rel="noopener" class="footer__link">Погода</a></li>
+            <li class="footer__item"> <a href="https://rasp.yandex.ru" target="_blank" rel="noopener" class="footer__link">Расписание</a></li>
+            <li class="footer__item"> <a href="https://calendar.yandex.ru" target="_blank" rel="noopener" class="footer__link">Календарь</a></li>
+            <li class="footer__item"> <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener" class="footer__link">Путешествия</a></li>
+        </ul>
         <p class="footer__copyright">© 2020. NataStereO8</p>
     </footer>  
 </body>
