@@ -3,3 +3,24 @@
     padding-bottom: 20%;
     position: relative;
 }
+
+@media (max-width: 1024px){
+    .cover__text{
+        padding-top: 18%;
+        padding-bottom: 18%;
+    }
+}
+
+@media (max-width: 768px){
+    .cover__text{
+        padding-top: 16%;
+        padding-bottom: 16%;
+    }
+}
+
+@media (max-width: 320px){
+    .cover__text{
+        padding-top: 13%;
+        padding-bottom: 13%;
+    }
+}
