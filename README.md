@@ -1,23 +1,23 @@
-# Проект 3: Путешествие по России
+# Project 3: Russian-travel
 
-### Обзор
-* Интро
-* Figma
-* Картинки
+Alt-H1
+------------------------------------------------
 
-**Интро**
+**About**
 
-Здесь будет проект о путешествии по России.
-В Фигме мы разместили макет, в котором видно, как проект должен выглядеть на самых распространённых разрешениях экранов.
-Этот проект сложнее предыдущих, постарайтесь уделить ему больше времени.
+This site provides some information about traveling in Russia and contains links to various resources containing more detailed information about sight.
 
-**Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
+**Technology**
 
-**Картинки**
+* html
+* css
+* git
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+**Tools**
 
-Удачи!
+* VS.Code
+* Github
+
+**Project**
+* [Ссылка на проект](https://natastereo8.github.io/russian-travel/)
