@@ -23,7 +23,7 @@
     }
 }
 
-@media (max-width: 320px){
+@media (max-width: 450px){
     .place{
     grid-template-rows: auto auto auto;
     grid-template-columns: 100%;
