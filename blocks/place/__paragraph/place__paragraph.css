@@ -14,13 +14,19 @@
 @media (max-width: 768px){
     .place__paragraph{
         font-size: 16px;
+    }
+}
 
+@media (max-width: 450px){
+    .place__paragraph{
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 
 @media (max-width: 320px){
     .place__paragraph{
-    padding-left: 16px;
-    padding-right: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
